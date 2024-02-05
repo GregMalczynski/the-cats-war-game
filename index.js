@@ -1,4 +1,3 @@
-
 const startPage = document.querySelector('.startPage')
 const btnStart = document.querySelector('.btn-start')
 let visible = true
@@ -28,8 +27,6 @@ function handleClickPlayAgain() {
     enemy.position.y = 100
     enemy.health = 100
     document.querySelector('.enemyHealth').style.width = enemy.health + '%'
-    
-    
 }
 
 btnStart.addEventListener('click', handleClick)

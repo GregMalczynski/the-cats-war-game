@@ -20,9 +20,9 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
-    background-color: rgb(73, 73, 73); 
+    background-color: rgb(56, 59, 63); 
     width: 1024px; 
-    height: 586px;
+    height: 576px;
 }
 
 .game-title-the{
@@ -60,7 +60,7 @@ body{
     position: absolute; 
     visibility: hidden; 
     width: 1024px; 
-    height: 586px; 
+    height: 576px; 
     display: flex; 
     align-items: center;
     justify-content: center;

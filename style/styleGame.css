@@ -1,6 +1,8 @@
 .game-container{
     position: relative; 
     display: inline-block;
+    height: 576px;
+    box-shadow: 25px 25px #000000;
 }
 
 .top-game-bar-names-container{
@@ -94,11 +96,12 @@
 }
 
 .displayText{
+    display: flex;
+    height: 576px;
     font-size: 32px;
     text-shadow: 5px 5px #000000;
     position: absolute;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
