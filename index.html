@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://fonts.cdnfonts.com/css/d3-cutebitmapism" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/styleGame.css">
+</head>
+<body>
+    <!-- welcome page -->
+    <div class="startPage">
+        <div class="game-title-the">the</div>
+        <div class="game-title-cat-wars">Cat's War</div>
+        <button class="btn-start">Let's War!</button>
+    </div>
+        <div class="playAgain">
+            <button class="btn-playAgain">Play Again</button>
+        </div>
+    <div class="game-container">
+        <!-- warrior names -->
+        <div class="top-game-bar-names-container">
+            <div class="top-game-bar-left-warrior-name">Black Cat</div>
+            <div class="top-game-bar-right-warrior-name">White Cat</div>
+        </div>
+
+        <!-- warrior health bar container -->
+        <div class="top-game-bar-health-time-container">
+
+            <!-- left warrior bar -->
+            <div class="top-game-bar-left-warrior-health-container"> 
+                <!-- bar background -->
+                <div class="top-game-bar-left-warrior-bg"></div>
+                <!-- bar energy -->
+                <div class="playerHealth"></div>
+            </div>
+
+            <!-- timer -->
+            <div class="timer">10</div>
+
+            <!-- right warrior bar -->
+            <div class="top-game-bar-right-warrior-health-container">
+                <!-- bar background -->
+                <div class="top-game-bar-right-warrior-bg"></div>
+                <!-- bar energy -->
+                <div class="enemyHealth" ></div>
+            </div>
+        </div>
+
+        <!-- display text -->
+        <div class="displayText"></div>
+    <canvas></canvas>
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/classes.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

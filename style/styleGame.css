@@ -1,0 +1,109 @@
+.game-container{
+    position: relative; 
+    display: inline-block;
+}
+
+.top-game-bar-names-container{
+    position: absolute; 
+    width: 1024px; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 18px; 
+    text-shadow: 3px 3px #000000;
+}
+
+.top-game-bar-left-warrior-name{
+    display: flex; 
+    justify-content: 
+    flex-end; 
+    color: white;
+}
+
+.top-game-bar-right-warrior-name{
+    display: flex; 
+    justify-content: 
+    flex-start; 
+    color: white
+}
+
+.top-game-bar-health-time-container{
+    position: absolute; 
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.top-game-bar-left-warrior-health-container{
+    position: relative; 
+    height: 30px; 
+    width: 100%
+}
+
+.top-game-bar-left-warrior-bg{
+    background: #2282ce; 
+    height: 30px; 
+    width: 100%;
+}
+
+.playerHealth{
+    position: absolute; 
+    background: rgb(255,242,87);
+    background: linear-gradient(0deg, rgba(255,242,87,1) 0%, rgba(253,187,45,1) 100%); 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    width: 100%;
+    transition: 0.5s;
+}
+
+.timer{
+    font-size: 38px;
+    text-shadow: 5px 5px #000000;
+    background-color: #68a374; 
+    color: rgb(255, 232, 23);
+    height: 80px; 
+    width: 80px; 
+    flex-shrink: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.top-game-bar-right-warrior-health-container{
+    position: relative; 
+    height: 30px; 
+    width: 100%
+}
+
+.top-game-bar-right-warrior-bg{
+    background: #2282ce;
+    height: 30px;
+}
+
+.enemyHealth{
+    position: absolute;
+    background: rgb(255,242,87);
+    background: linear-gradient(0deg, rgba(255,242,87,1) 0%, rgba(253,187,45,1) 100%);  
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    transition: 0.5s;
+}
+
+.displayText{
+    font-size: 32px;
+    text-shadow: 5px 5px #000000;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

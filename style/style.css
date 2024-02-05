@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: none;
+}
+body{
+    font-family: 'D3 CuteBitMapism TypeA';
+    -webkit-font-smoothing: none;
+ 
+    display: flex; 
+    height: 95vh; 
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+}
+
+.startPage{
+    z-index: 1;
+    position: absolute; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(73, 73, 73); 
+    width: 1024px; 
+    height: 586px;
+}
+
+.game-title-the{
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px #000000;
+}
+
+.game-title-cat-wars{
+    color: white;
+    font-size: 46px;
+    text-shadow: 5px 5px #000000;
+    margin-bottom: 20px;
+}
+
+.btn-start{
+    width: 280px; 
+    height: 100px;
+    font-family: 'D3 CuteBitMapism TypeA';
+    background-color: #68a374;
+    color: rgb(255, 232, 23);
+    font-size: 22px;
+    text-shadow: 3px 3px #000000;
+    border: none;
+    box-shadow: 10px 10px #000000;
+    cursor: pointer;
+}
+
+.btn-start:hover {
+    color: white
+}
+
+.playAgain{
+    z-index: 2;
+    position: absolute; 
+    visibility: hidden; 
+    width: 1024px; 
+    height: 586px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.btn-playAgain{
+    width: 280px; 
+    height: 100px;
+    font-family: 'D3 CuteBitMapism TypeA';
+    background-color: rgb(255, 232, 23);
+    color: white;
+    font-size: 22px;
+    text-shadow: 3px 3px #000000;
+    border: none;
+    box-shadow: 10px 10px #000000;
+    cursor: pointer;
+}
